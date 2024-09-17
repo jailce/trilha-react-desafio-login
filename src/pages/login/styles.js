@@ -14,10 +14,14 @@ export const Container = styled.main`
 
 export const Wrapper = styled.div`
     max-width: 300px;
+
+    margin: 0 auto;
+
 `
 
 export const Column = styled.div`
-    flex: 1;
+flex: 1;
+margin: 0 auto;
 `
 
 export const Row = styled.div`
@@ -79,4 +83,22 @@ export const CriarText =  styled.p`
     line-height: 19px;
 
     color: #23DD7A;
+`
+
+
+export const TitleHighlight = styled.span`
+    color: #E4105D;;
+`
+
+export const TextContent = styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 420px;
+
+    margin-bottom: 20px;
+
+    color: #FFFFFF;
 `

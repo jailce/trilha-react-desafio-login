@@ -1,32 +1,19 @@
-import styled  from 'styled-components';
+import styled from "styled-components";
 
-export const Container = styled.div`
-   
+
+
+// CONTAINER
+
+export const Container = styled.div `
     width: 100%;
     max-width: 80%;
-    height: 47px;
+    height: 48px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+
 `
-
-export const Row = styled.div`
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-`;
-
-export const Wrapper = styled.div`
-    background-color: #151515;
-    width: 100%;
-    height: 47px;
-    display:flex
-    justify-content: center;
-    align-items: center
-`
-
 export const BuscarInputContainer = styled.div`
     width: 275px;
     height: 30px;
@@ -34,10 +21,33 @@ export const BuscarInputContainer = styled.div`
     border-radius: 8px;
     padding: 2px 5px;
     margin: 0 12px;
-
     display:flex;
+
+`
+//ROW
+export const Row = styled.div`
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+`
+//COLUMN
+export const Column = styled.div`
+    display: flex;
+    flex-direction: Row;
+    align-items: clearInterval;
+
+`
+//WRAPPER
+export const Wrapper = styled.div`
+    background-color: #151515;
+    width: 100%;
+    height: 47px;
+    display:flex;
+    justify-content: center;
+    align-items: center
 `
 
+//MENU
 export const Menu = styled.a`
     font-family: 'Open Sans';
     font-style: normal;
@@ -47,7 +57,7 @@ export const Menu = styled.a`
     color: #FFFFFF;
     margin-right: 12px;
 `
-
+//MENURIGHT
 export const MenuRight = styled.a`
     font-family: 'Open Sans';
     font-style: normal;
@@ -71,3 +81,4 @@ export const Input = styled.input`
     border: 0;
     color: #FFFFFF;
 `
+
